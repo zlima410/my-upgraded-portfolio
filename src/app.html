@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -19,7 +20,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     %sveltekit.head%
   </head>
-  <body data-sveltekit-preload-data="hover" class="bg-slate-950 text-white relative">
+  <body data-sveltekit-preload-data="hover" class="bg-[#782F40] text-white relative">
     <div style="display: contents" class="relative z-[1]">%sveltekit.body%</div>
+    <div class="absolute min-h-screen top-0 left-0 w-full z-[-1] opacity-70">
+      <div class="absolute inset-0" id="particles-js"></div>
+    </div>
+    <script>
+      particlesJS.load('particles-js', 'assets/particles.json', function () {
+        console.log('Callback - particles.js config loaded');
+      });
+    </script>
   </body>
 </html>
