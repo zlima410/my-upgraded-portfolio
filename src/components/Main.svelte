@@ -2,9 +2,9 @@
   import Step from './Step.svelte';
 
   let steps = [
-    {name: 'Video Game Price Scraper', icon: 'fa-solid fa-gamepad'},
-    {name: 'LC3100 Processor Simulator', icon: 'fa-solid fa-microchip'},
-    {name: 'LC3100 Cache Simulator', icon: 'fa-solid fa-memory'},
+    {name: 'Video Game Price Scraper', icon: 'fa-solid fa-gamepad', href: 'https://github.com/zlima410/G2A-webscraper'},
+    {name: 'LC3100 Processor Simulator', icon: 'fa-solid fa-microchip', href: 'https://github.com/zlima410/CDA-processor-simulator'},
+    {name: 'LC3100 Cache Simulator', icon: 'fa-solid fa-memory', href: 'https://github.com/zlima410/CDA-cache-simulator'},
   ];
 
   let benefits = [
