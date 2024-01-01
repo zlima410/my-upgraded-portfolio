@@ -25,10 +25,11 @@
         My <span class="text-[#F9013F]">favorite tech</span> includes C, C++, Python, Java, JavaScript 
         (SvelteKit, Node.js), TailwindCSS, and Git
       </p>
-      <a
+      <div class="flex flex-row lg:justify-start text-center lg:text-left gap-4 md:gap-6 lg:gap-10">
+        <a
         href="mailto:zacharylima2021@gmail.com"
         target="_blank"
-        class="redShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins 
+        class="redShadow mx-auto lg:mr-0 lg:ml-0 text-base sm:text-lg md:text-xl poppins 
         relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950
         cursor-pointer"
       >
@@ -38,6 +39,20 @@
         />
         <h4 class="relative z-9">Get in touch &rarr;</h4>
       </a>
+      <a
+        href="assets/resume.pdf"
+        target="_blank"
+        class="redShadow mx-auto lg:mr-0 lg:ml-0 text-base sm:text-lg md:text-xl poppins 
+        relative overflow-hidden px-6 py-3 group rounded-full bg-slate-900 text-white
+        cursor-pointer"
+      >
+        <div 
+          class="absolute top-0 right-full w-full h-full bg-[#F9013F] opacity-20 
+          group-hover:translate-x-full z-0 duration-200"
+        />
+        <h4 class="relative z-9">Download CV</h4>
+      </a>
+      </div>
     </div>
     <div class="relative shadow-2xl grid place-items-center">
       <img 
