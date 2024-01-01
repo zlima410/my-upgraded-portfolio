@@ -17,7 +17,7 @@
         </a>
       </p>
       <p><b class="pr-2">GitHub</b>
-        <a class="text-[#F9013F]" target="_blank" href="https://github.com/zlima410">
+        <a class="text-[#F9013F]" target="_blank" href="https://www.github.com/zlima410">
           zlima410<sup><span class="text-xs scale-75 pl-0.5">
             <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"/>
           </span></sup>
