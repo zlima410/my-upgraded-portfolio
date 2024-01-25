@@ -2,7 +2,7 @@
   import Step from './Step.svelte';
 
   let steps = [
-    {name: 'Video Game Price Scraper', icon: 'fa-solid fa-gamepad', href: 'https://github.com/zlima410/G2A-webscraper'},
+    {name: 'Vector Class Implementation in C++', icon: 'fa-solid fa-gamepad', href: 'https://github.com/zlima410/COP4530-DataStructures'},
     {name: 'LC3100 Processor Simulator', icon: 'fa-solid fa-microchip', href: 'https://github.com/zlima410/CDA-processor-simulator'},
     {name: 'LC3100 Cache Simulator', icon: 'fa-solid fa-memory', href: 'https://github.com/zlima410/CDA-cache-simulator'},
   ];
@@ -83,9 +83,9 @@
       </a> -->
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
         <Step step={steps[0]}>
-          <p>A webscraper to find changes in video game prices using 
-            <strong class="text-[#F9013F]">Python! </strong>BeautifulSoup is used for webscraping
-            and Pandas is used to export data to Excel.
+          <p>An implementation of the standard library vector class and iterator in
+            <strong class="text-[#F9013F]">C++! </strong>The class was implemented using the C++11 Big Five.
+            The Big Five allow for the dynamic resizing of the vector, as well as the ability to copy and move elements.
           </p>
         </Step>
         <Step step={steps[1]}>
