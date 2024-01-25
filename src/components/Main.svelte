@@ -2,7 +2,7 @@
   import Step from './Step.svelte';
 
   let steps = [
-    {name: 'Vector Class Implementation in C++', icon: 'fa-solid fa-gamepad', href: 'https://github.com/zlima410/COP4530-DataStructures'},
+    {name: 'Vector Class Implementation in C++', icon: 'fa-solid fa-circle-nodes', href: 'https://github.com/zlima410/COP4530-DataStructures'},
     {name: 'LC3100 Processor Simulator', icon: 'fa-solid fa-microchip', href: 'https://github.com/zlima410/CDA-processor-simulator'},
     {name: 'LC3100 Cache Simulator', icon: 'fa-solid fa-memory', href: 'https://github.com/zlima410/CDA-cache-simulator'},
   ];
